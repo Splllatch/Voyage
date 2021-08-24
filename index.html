@@ -1,0 +1,1045 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>En route vers la Nouvelle-Zélande </title>
+		<link rel="stylesheet" href="voyage.css" />
+		<script src="voyage.js" defer></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+
+	</head>
+
+
+
+	<body> 
+		
+
+
+
+
+
+
+		<section class="transport">						
+			<section class=numeroTransport class="etape"> 
+				Transport n°  <block class="nbTransport"></block>
+			</section>
+			<section class="detail">
+				<img src="Paris-Moscou.png" class="imgTransport">
+				<section class="données" >
+					<section class="detail1" class="etape"> 
+						<div class="titre">Trajet</div>
+						<li>Paris 	<img class="iconeTrajet" src="trajet.png"> 	Moscou</li>						
+						<li>Train</li>
+						<li><input class="tempsEtape jour" value="2">jours</input></li>
+						<li><input  class="cout1" value="150" >€ le billet</input></li>
+					</section>
+					<section class="nourriture">
+						<div class="titre">Nourriture</div>
+						<div>
+							<input  class="coutJour" value="25" >€ par jour</input>
+							</br>
+							<div class="total">
+							</br> Total
+							<input  class="cout2"  >€</input>
+							</div>
+						</div>
+					</section>
+					<section class="achatBillet">
+						<div class="titre">Ou acheter le billet ?</div>
+						<div>
+							bla bla bla
+						</div>
+					</section>
+					<div class="visa">
+						<div class="titre">Visa</div>
+						<div class="donneesTransport2" >
+							<li>Invitation = 15€</li>
+							<li>Visa Bielorusse = 60€</li>
+							<li>Visa Russe = 65€</li>
+							<li>Total visa = <input  class="cout3" value="140" >€</input></li>
+						</div>		
+					</div>
+					<div class="recap">
+						<div class="titre">Cumul des trucs</div>
+						<li>Cout étape : <block class="coutEtape"></block>€</li>
+						<li>Cumul des dépenses : <block class="cumulDepense"></block>€</li>
+						<li>Temps passé depuis le départ : <block class="tempsCumul" ></block> jours</li>
+						<li>Kilomètre parcouru : <block class="distanceCumul" ></block> km</li>
+					</div>
+				</section>
+				<section class="detailTransport">
+					<div class="titre">Détails</div>
+					<div class="donneesTransport2" >Train au départ de Paris le jeudi soir. Arrivée le samedi à midi Chambre de 4 couchettes</div>
+				</section>
+			</section>
+			<section class="pays">
+				<div class="t11" >
+					<div  class="titrePays">Pays</div> 
+					<div class="donneesTransport">Russie</div> 
+				</div>
+			</section>
+		</section>
+
+
+				
+
+
+
+
+
+
+
+
+
+
+		<section class="ville" class="etape"> 				
+			<div class=sectionVille> 
+				<div class="titreVille">
+					Ville n° <div class="nbEtape"></div>
+				</div>
+				<div>Moscou</div>
+			</div>
+				<div class="info">
+					<div class="tempsVille">
+						<div class="titre">Temps sur place</div>
+						<input class="tempsEtape jour" value="3">jours </input>
+					</div>
+					<div class="activiteVille">
+						<div class="titre">Activitées</div>
+						<div class="donneesVille2">
+							<li>Place rouge </li>
+							<li>Prendre le thé avec Vladimir</li>
+							<li></li>
+							<li>Total  <input  class="cout1" value="50" >€</input></li>
+						</div>
+					</div>
+					<section class="nourriture">
+						<div class="titre">Nourriture</div>
+						<div>
+							<input  class="coutJour" value="25" >€ par jour</input>
+							</br>
+							<div class="total">
+							</br> Total
+							<input  class="cout2"  >€</input>
+							</div>
+						</div>
+					</section>
+					<div class="detailVille">
+						<div class="titre">Détails</div>
+						<div class="donneesVille2"> Trois jous sur place, une visite ou deux par jour </div>
+						<input  class="cout3" value="0" >€</input>
+					</div>					
+					<div class="recapVille">
+						<div class="titre">Cumul des trucs</div>
+						<li>Cout étape : <block class="coutEtape"></block>€</li>
+						<li>Cumul des dépenses : <block class="cumulDepense"></block>€</li>
+						<li>Temps passé depuis le départ : <block class="tempsCumul" ></block> jours</li>
+						<li>Kilomètre parcouru : <block class="distanceCumul" ></block> km</li>
+					</div>
+				</div>
+				<section class="paysVille">
+					<div class="t11" >
+						<div  class="titrePays">Pays</div> 
+						<div class="donneesTransport">Russie</div> 
+					</div>
+				</section>
+			</section>
+
+
+
+
+
+
+
+
+
+
+				<section class="transport">							
+					<section class=numeroTransport class="etape"> 
+						Transport n°  <block class="nbTransport"></block>
+					</section>		
+					<section class="detail">
+						<img src="Moscou-StPetersbourg.png" class="imgTransport">		
+						<section class="données" >		
+							<section class="detail1" class="etape"> 
+								<div class="titre">Trajet</div>
+								<li>Moscou <img class="iconeTrajet" src="trajet.png"> 		St Petersbourg</li>						
+								<li>Train</li>
+								<li><input class="tempsEtape heure" value="9">heures</input></li>
+								<li><input  class="cout1" value="9" >€ le billet</input></li>
+							</section>		
+							<section class="nourriture">
+								<div class="titre">Nourriture</div>
+								<div>
+									<input  class="coutJour" value="25" >€ par jour</input>
+									</br>
+									<div class="total">
+									</br> Total
+									<input  class="cout2"  >€</input>
+									</div>
+								</div>
+							</section>		
+							<section class="achatBillet">
+								<div class="titre">Ou acheter le billet ?</div>
+								<div>
+									bla bla bla
+								</div>
+							</section>		
+							<div class="sansVisa">
+								<div class="titre"></div>
+								 <input  class="cout3" value="0" type="hidden"></input></li>
+								</div>				
+							<div class="recap">
+								<div class="titre">Cumul des trucs</div>
+								<li>Cout étape : <block class="coutEtape"></block>€</li>
+								<li>Cumul des dépenses : <block class="cumulDepense"></block>€</li>
+								<li>Temps passé depuis le départ : <block class="tempsCumul" ></block> jours</li>
+								<li>Kilomètre parcouru : <block class="distanceCumul" ></block> km</li>
+							</div>
+						</section>		
+						<section class="detailTransport">
+							<div class="titre">Détails</div>
+							<div class="donneesTransport2" >Train de nuit</div>
+						</section>		
+					</section>	
+				<section class="pays">
+					<div class="t11" >
+						<div  class="titrePays">Pays</div> 
+						<div class="donneesTransport">Russie</div> 
+					</div>
+				</section>	
+			</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+			<section class="ville" class="etape"> 				
+				<div class=sectionVille> 
+					<div class="titreVille">
+						Ville n° <div class="nbEtape"></div>
+					</div>
+					<div>Moscou</div>
+				</div>	
+					<div class="info">
+						<div class="tempsVille">
+							<div class="titre">Temps sur place</div>
+							<input class="tempsEtape jour" value="3">jours </input>
+						</div>	
+						<div class="activiteVille">
+							<div class="titre">Activitées</div>
+							<div class="donneesVille2">
+								<li>Musée de l'ermitage</li>
+								<li>Cathédrale Saint Sauveur sur</li>
+								<li>Musée Fabergé</li>
+								<li>Total  <input  class="cout1" value="30" >€</input></li>
+							</div>
+						</div>	
+						<section class="nourriture">
+							<div class="titre">Nourriture</div>
+							<div>
+								<input  class="coutJour" value="25" >€ par jour</input>
+								</br>
+								<div class="total">
+								</br> Total
+								<input  class="cout2"  >€</input>
+								</div>
+							</div>
+						</section>	
+						<div class="detailVille">
+							<div class="titre">Détails</div>
+							<div class="donneesVille2"> Trois jours sur place, puis retour à Moscou et départ vers l'Est </div>
+							<input  class="cout3" value="0" >€</input>
+						</div>						
+						<div class="recapVille">
+							<div class="titre">Cumul des trucs</div>
+							<li>Cout étape : <block class="coutEtape"></block>€</li>
+							<li>Cumul des dépenses : <block class="cumulDepense"></block>€</li>
+							<li>Temps passé depuis le départ : <block class="tempsCumul" ></block> jours</li>
+							<li>Kilomètre parcouru : <block class="distanceCumul" ></block> km</li>
+						</div>
+					</div>	
+					<section class="paysVille">
+						<div class="t11" >
+							<div  class="titrePays">Pays</div> 
+							<div class="donneesTransport">Russie</div> 
+						</div>
+					</section>	
+				</section>
+
+	
+				
+
+
+
+
+
+
+
+
+				<section class="transport">						
+					<section class=numeroTransport class="etape"> 
+						Transport n°  <block class="nbTransport"></block>
+					</section>		
+					<section class="detail">
+						<img src="Moscou-StPetersbourg.png" class="imgTransport">		
+						<section class="données" >		
+							<section class="detail1" class="etape"> 
+								<div class="titre">Trajet</div>
+								<li>St Petersbourg 	<img class="iconeTrajet" src="trajet.png"> 	Moscou</li>						
+								<li>Train</li>
+								<li><input class="tempsEtape heure" value="9">heures</input></li>
+								<li><input  class="cout1" value="9" >€ le billet</input></li>
+							</section>		
+							<section class="nourriture">
+								<div class="titre">Nourriture</div>
+								<div>
+									<input  class="coutJour" value="25" >€ par jour</input>
+									</br>
+									<div class="total">
+									</br> Total
+									<input  class="cout2"  >€</input>
+									</div>
+								</div>
+							</section>		
+							<section class="achatBillet">
+								<div class="titre">Ou acheter le billet ?</div>
+								<div>
+									bla bla bla
+								</div>
+							</section>		
+							<div class="sansVisa">
+								<div class="titre"></div>
+								 <input  class="cout3" value="0" type="hidden"></input></li>
+								</div>		
+							<div class="recap">
+								<div class="titre">Cumul des trucs</div>
+								<li>Cout étape : <block class="coutEtape"></block>€</li>
+								<li>Cumul des dépenses : <block class="cumulDepense"></block>€</li>
+								<li>Temps passé depuis le départ : <block class="tempsCumul" ></block> jours</li>
+								<li>Kilomètre parcouru : <block class="distanceCumul" ></block> km</li>
+							</div>
+						</section>		
+						<section class="detailTransport">
+							<div class="titre">Détails</div>
+							<div class="donneesTransport2" >Train de nuit</div>
+						</section>		
+					</section>		
+					<section class="pays">
+						<div class="t11" >
+							<div  class="titrePays">Pays</div> 
+							<div class="donneesTransport">Russie</div> 
+						</div>
+					</section>		
+				</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+				<section class="transport">						
+					<section class=numeroTransport class="etape"> 
+						Transport n°  <block class="nbTransport"></block>
+					</section>		
+					<section class="detail">
+						<img src="Moscou-OulanOude.png" class="imgTransport">		
+						<section class="données" >		
+							<section class="detail1" class="etape"> 
+								<div class="titre">Trajet</div>
+								<li>Moscou <img class="iconeTrajet" src="trajet.png"> 	Oulan Oude</li>						
+								<li>Train</li>
+								<li><input class="tempsEtape jour" value="4">jours</input></li>
+								<li><input  class="cout1" value="80" >€ le billet</input></li>
+							</section>		
+							<section class="nourriture">
+								<div class="titre">Nourriture</div>
+								<div>
+									<input  class="coutJour" value="25" >€ par jour</input>
+									</br>
+									<div class="total">
+									</br> Total
+									<input  class="cout2"  >€</input>
+									</div>
+								</div>
+							</section>		
+							<section class="achatBillet">
+								<div class="titre">Ou acheter le billet ?</div>
+								<div>
+									bla bla bla
+								</div>
+							</section>		
+							<div class="sansVisa">
+								<div class="titre"></div>
+								 <input  class="cout3" value="0" type="hidden"></input></li>
+								</div>		
+							<div class="recap">
+								<div class="titre">Cumul des trucs</div>
+								<li>Cout étape : <block class="coutEtape"></block>€</li>
+								<li>Cumul des dépenses : <block class="cumulDepense"></block>€</li>
+								<li>Temps passé depuis le départ : <block class="tempsCumul" ></block> jours</li>
+								<li>Kilomètre parcouru : <block class="distanceCumul" ></block> km</li>
+							</div>
+						</section>		
+						<section class="detailTransport">
+							<div class="titre">Détails</div>
+							<div class="donneesTransport2" >Train couchette</div>
+						</section>		
+					</section>		
+					<section class="pays">
+						<div class="t11" >
+							<div  class="titrePays">Pays</div> 
+							<div class="donneesTransport">Russie</div> 
+						</div>
+					</section>		
+				</section>
+
+			
+	
+				
+
+
+
+
+
+
+
+
+
+				<section class="ville" class="etape"> 				
+					<div class=sectionVille> 
+						<div class="titreVille">
+							Ville n° <div class="nbEtape"></div>
+						</div>
+						<div>Oulan-Oude</div>
+					</div>	
+						<div class="info">
+							<div class="tempsVille">
+								<div class="titre">Temps sur place</div>
+								<input class="tempsEtape jour" value="2">jours </input>
+							</div>	
+							<div class="activiteVille">
+								<div class="titre">Activitées</div>
+								<div class="donneesVille2">
+									<li>Aller au lac Baikal</li>
+									<li></li>
+									<li></li>
+									<li>Total  <input  class="cout1" value="30" >€</input></li>
+								</div>
+							</div>	
+							<section class="nourriture">
+								<div class="titre">Nourriture</div>
+								<div>
+									<input  class="coutJour" value="25" >€ par jour</input>
+									</br>
+									<div class="total">
+									</br> Total
+									<input  class="cout2"  >€</input>
+									</div>
+								</div>
+							</section>	
+							<div class="detailVille">
+								<div class="titre">Détails</div>
+								<div class="donneesVille2">  </div>
+								<input  class="cout3" value="0" >€</input>
+							</div>						
+							<div class="recapVille">
+								<div class="titre">Cumul des trucs</div>
+								<li>Cout étape : <block class="coutEtape"></block>€</li>
+								<li>Cumul des dépenses : <block class="cumulDepense"></block>€</li>
+								<li>Temps passé depuis le départ : <block class="tempsCumul" ></block> jours</li>
+								<li>Kilomètre parcouru : <block class="distanceCumul" ></block> km</li>
+							</div>
+						</div>	
+						<section class="paysVille">
+							<div class="t11" >
+								<div  class="titrePays">Pays</div> 
+								<div class="donneesTransport">Russie</div> 
+							</div>
+						</section>	
+					</section>
+
+
+
+
+
+
+					<section class="transport">						
+						<section class=numeroTransport class="etape"> 
+							Transport n°  <block class="nbTransport"></block>
+						</section>		
+						<section class="detail">
+							<img src="OulanOude-OulanBator.png" class="imgTransport">		
+							<section class="données" >		
+								<section class="detail1" class="etape"> 
+									<div class="titre">Trajet</div>
+									<li>Oulan Oude <img class="iconeTrajet" src="trajet.png"> Oulan bator	</li>						
+									<li>bus</li>
+									<li><input class="tempsEtape heure" value="12">jours</input></li>
+									<li><input  class="cout1" value="25" >€ le billet</input></li>
+								</section>		
+								<section class="nourriture">
+									<div class="titre">Nourriture</div>
+									<div>
+										<input  class="coutJour" value="22" >€ par jour</input>
+										</br>
+										<div class="total">
+										</br> Total
+										<input  class="cout2"  >€</input>
+										</div>
+									</div>
+								</section>		
+								<section class="achatBillet">
+									<div class="titre">Ou acheter le billet ?</div>
+									<div>
+										bla bla bla
+									</div>
+								</section>		
+								<div class="visa">
+									<div class="titre">Visa</div>
+									<div class="donneesTransport2" >
+										<li>via mongole 80€</li>
+										<li></li>
+										<li></li>
+										<li> <input  class="cout3" value="80" >€</input></li>
+									</div>		
+								</div>		
+								<div class="recap">
+									<div class="titre">Cumul des trucs</div>
+									<li>Cout étape : <block class="coutEtape"></block>€</li>
+									<li>Cumul des dépenses : <block class="cumulDepense"></block>€</li>
+									<li>Temps passé depuis le départ : <block class="tempsCumul" ></block> jours</li>
+									<li>Kilomètre parcouru : <block class="distanceCumul" ></block> km</li>
+								</div>
+							</section>		
+							<section class="detailTransport">
+								<div class="titre">Détails</div>
+								<div class="donneesTransport2" ></div>
+							</section>		
+						</section>		
+						<section class="pays">
+							<div class="t11" >
+								<div  class="titrePays">Pays</div> 
+								<div class="donneesTransport">Mongolie</div> 
+							</div>
+						</section>		
+					</section>
+
+
+
+
+		
+
+
+
+
+					<section class="ville" class="etape"> 				
+						<div class=sectionVille> 
+							<div class="titreVille">
+								Ville n° <div class="nbEtape"></div>
+							</div>
+							<div>Oulan-Bator</div>
+						</div>	
+							<div class="info">
+								<div class="tempsVille">
+									<div class="titre">Temps sur place</div>
+									<input class="tempsEtape jour" value="2">jours </input>
+								</div>	
+								<div class="activiteVille">
+									<div class="titre">Activitées</div>
+									<div class="donneesVille2">
+										<li></li>
+										<li></li>
+										<li></li>
+										<li>Total  <input  class="cout1" value="0" >€</input></li>
+									</div>
+								</div>	
+								<section class="nourriture">
+									<div class="titre">Nourriture</div>
+									<div>
+										<input  class="coutJour" value="22" >€ par jour</input>
+										</br>
+										<div class="total">
+										</br> Total
+										<input  class="cout2"  >€</input>
+										</div>
+									</div>
+								</section>	
+								<div class="detailVille">
+									<div class="titre">Détails</div>
+									<div class="donneesVille2">  </div>
+									<input  class="cout3" value="0" >€</input>
+								</div>						
+								<div class="recapVille">
+									<div class="titre">Cumul des trucs</div>
+									<li>Cout étape : <block class="coutEtape"></block>€</li>
+									<li>Cumul des dépenses : <block class="cumulDepense"></block>€</li>
+									<li>Temps passé depuis le départ : <block class="tempsCumul" ></block> jours</li>
+									<li>Kilomètre parcouru : <block class="distanceCumul" ></block> km</li>
+								</div>
+							</div>	
+							<section class="paysVille">
+								<div class="t11" >
+									<div  class="titrePays">Pays</div> 
+									<div class="donneesTransport">Mongolie</div> 
+								</div>
+							</section>	
+						</section>
+
+
+
+
+
+
+						<section class="transport">						
+							<section class=numeroTransport class="etape"> 
+								Transport n°  <block class="nbTransport"></block>
+							</section>		
+							<section class="detail">
+								<img src="OulanBator-Zamyn-Uud.png" class="imgTransport">		
+								<section class="données" >		
+									<section class="detail1" class="etape"> 
+										<div class="titre">Trajet</div>
+										<li>Oulan bator <img class="iconeTrajet" src="trajet.png">	Zamyn-Uude</li>						
+										<li>train de nuit</li>
+										<li><input class="tempsEtape heure" value="14">heures</input></li>
+										<li><input  class="cout1" value="7" >€ le billet</input></li>
+									</section>		
+									<section class="nourriture">
+										<div class="titre">Nourriture</div>
+										<div>
+											<input  class="coutJour" value="22" >€ par jour</input>
+											</br>
+											<div class="total">
+											</br> Total
+											<input  class="cout2"  >€</input>
+											</div>
+										</div>
+									</section>		
+									<section class="achatBillet">
+										<div class="titre">Ou acheter le billet ?</div>
+										<div>
+											bla bla bla
+										</div>
+									</section>		
+									<div class="sansVisa">
+										<div class="titre"></div>
+										 <input  class="cout3" value="0" type="hidden"></input></li>
+										</div>		
+									<div class="recap">
+										<div class="titre">Cumul des trucs</div>
+										<li>Cout étape : <block class="coutEtape"></block>€</li>
+										<li>Cumul des dépenses : <block class="cumulDepense"></block>€</li>
+										<li>Temps passé depuis le départ : <block class="tempsCumul" ></block> jours</li>
+										<li>Kilomètre parcouru : <block class="distanceCumul" ></block> km</li>
+									</div>
+								</section>		
+								<section class="detailTransport">
+									<div class="titre">Détails</div>
+									<div class="donneesTransport2" ></div>
+								</section>		
+							</section>		
+							<section class="pays">
+								<div class="t11" >
+									<div  class="titrePays">Pays</div> 
+									<div class="donneesTransport">Mongolie</div> 
+								</div>
+							</section>		
+						</section>
+
+
+
+
+
+
+
+
+
+						<section class="transport">						
+							<section class=numeroTransport class="etape"> 
+								Transport n°  <block class="nbTransport"></block>
+							</section>		
+							<section class="detail">
+								<img src="Zamyn-Uud-Erlian.png" class="imgTransport">		
+								<section class="données" >		
+									<section class="detail1" class="etape"> 
+										<div class="titre">Trajet</div>
+										<li>Zamyn-Uude <img class="iconeTrajet" src="trajet.png">Erlian	</li>						
+										<li>Bus passage de frontière</li>
+										<li><input class="tempsEtape heure" value="1">heures</input></li>
+										<li><input  class="cout1" value="10" >€ le billet</input></li>
+									</section>		
+									<section class="nourriture">
+										<div class="titre">Nourriture</div>
+										<div>
+											<input  class="coutJour" value="34" >€ par jour</input>
+											</br>
+											<div class="total">
+											</br> Total
+											<input  class="cout2"  >€</input>
+											</div>
+										</div>
+									</section>		
+									<section class="achatBillet">
+										<div class="titre">Ou acheter le billet ?</div>
+										<div>
+											bla bla bla
+										</div>
+									</section>		
+									<div class="visa">
+										<div class="titre">Visa</div>
+										<div class="donneesTransport2" >
+											<li>via chinois 120€</li>
+											<li></li>
+											<li></li>
+											<li> <input  class="cout3" value="120" >€</input></li>
+										</div>		
+									</div>		
+									<div class="recap">
+										<div class="titre">Cumul des trucs</div>
+										<li>Cout étape : <block class="coutEtape"></block>€</li>
+										<li>Cumul des dépenses : <block class="cumulDepense"></block>€</li>
+										<li>Temps passé depuis le départ : <block class="tempsCumul" ></block> jours</li>
+										<li>Kilomètre parcouru : <block class="distanceCumul" ></block> km</li>
+									</div>
+								</section>		
+								<section class="detailTransport">
+									<div class="titre">Détails</div>
+									<div class="donneesTransport2" ></div>
+								</section>		
+							</section>		
+							<section class="pays">
+								<div class="t11" >
+									<div  class="titrePays">Pays</div> 
+									<div class="donneesTransport">Chine</div> 
+								</div>
+							</section>		
+						</section>
+
+
+
+
+
+
+
+						<section class="transport">						
+							<section class=numeroTransport class="etape"> 
+								Transport n°  <block class="nbTransport"></block>
+							</section>		
+							<section class="detail">
+								<img src="Erlian-JiningSouth.png" class="imgTransport">		
+								<section class="données" >		
+									<section class="detail1" class="etape"> 
+										<div class="titre">Trajet</div>
+										<li>Erlian <img class="iconeTrajet" src="trajet.png">Jining South	</li>						
+										<li>Train</li>
+										<li><input class="tempsEtape heure" value="7">heures</input></li>
+										<li><input  class="cout1" value="5" >€ le billet</input></li>
+									</section>		
+									<section class="nourriture">
+										<div class="titre">Nourriture</div>
+										<div>
+											<input  class="coutJour" value="34" >€ par jour</input>
+											</br>
+											<div class="total">
+											</br> Total
+											<input  class="cout2"  >€</input>
+											</div>
+										</div>
+									</section>		
+									<section class="achatBillet">
+										<div class="titre">Ou acheter le billet ?</div>
+										<div>
+											bla bla bla
+										</div>
+									</section>		
+									<div class="sansVisa">
+										<div class="titre"></div>
+										 <input  class="cout3" value="0" type="hidden"></input></li>
+										</div>		
+									<div class="recap">
+										<div class="titre">Cumul des trucs</div>
+										<li>Cout étape : <block class="coutEtape"></block>€</li>
+										<li>Cumul des dépenses : <block class="cumulDepense"></block>€</li>
+										<li>Temps passé depuis le départ : <block class="tempsCumul" ></block> jours</li>
+										<li>Kilomètre parcouru : <block class="distanceCumul" ></block> km</li>
+									</div>
+								</section>		
+								<section class="detailTransport">
+									<div class="titre">Détails</div>
+									<div class="donneesTransport2" ></div>
+								</section>		
+							</section>		
+							<section class="pays">
+								<div class="t11" >
+									<div  class="titrePays">Pays</div> 
+									<div class="donneesTransport">Chine</div> 
+								</div>
+							</section>		
+						</section>
+
+
+
+
+
+
+
+
+
+						<section class="transport">						
+							<section class=numeroTransport class="etape"> 
+								Transport n°  <block class="nbTransport"></block>
+							</section>		
+							<section class="detail">
+								<img src="JiningSouth-Pekin.png" class="imgTransport">		
+								<section class="données" >		
+									<section class="detail1" class="etape"> 
+										<div class="titre">Trajet</div>
+										<li>Jining South <img class="iconeTrajet" src="trajet.png">Pekin	</li>						
+										<li>Train</li>
+										<li><input class="tempsEtape heure" value="10">heures</input></li>
+										<li><input  class="cout1" value="10" >€ le billet</input></li>
+									</section>		
+									<section class="nourriture">
+										<div class="titre">Nourriture</div>
+										<div>
+											<input  class="coutJour" value="34" >€ par jour</input>
+											</br>
+											<div class="total">
+											</br> Total
+											<input  class="cout2"  >€</input>
+											</div>
+										</div>
+									</section>		
+									<section class="achatBillet">
+										<div class="titre">Ou acheter le billet ?</div>
+										<div>
+											bla bla bla
+										</div>
+									</section>		
+									<div class="sansVisa">
+										<div class="titre"></div>
+										 <input  class="cout3" value="0" type="hidden"></input></li>
+										</div>		
+									<div class="recap">
+										<div class="titre">Cumul des trucs</div>
+										<li>Cout étape : <block class="coutEtape"></block>€</li>
+										<li>Cumul des dépenses : <block class="cumulDepense"></block>€</li>
+										<li>Temps passé depuis le départ : <block class="tempsCumul" ></block> jours</li>
+										<li>Kilomètre parcouru : <block class="distanceCumul" ></block> km</li>
+									</div>
+								</section>		
+								<section class="detailTransport">
+									<div class="titre">Détails</div>
+									<div class="donneesTransport2" ></div>
+								</section>		
+							</section>		
+							<section class="pays">
+								<div class="t11" >
+									<div  class="titrePays">Pays</div> 
+									<div class="donneesTransport">Chine</div> 
+								</div>
+							</section>		
+						</section>
+
+
+
+
+
+
+
+
+						<section class="ville" class="etape"> 				
+							<div class=sectionVille> 
+								<div class="titreVille">
+									Ville n° <div class="nbEtape"></div>
+								</div>
+								<div>Pekin</div>
+							</div>	
+								<div class="info">
+									<div class="tempsVille">
+										<div class="titre">Temps sur place</div>
+										<input class="tempsEtape jour" value="4">jours </input>
+									</div>	
+									<div class="activiteVille">
+										<div class="titre">Activitées</div>
+										<div class="donneesVille2">
+											<li>Muraille de chine : 40€</li>
+											<li>Citée interdite : 10€</li>
+											<li>Palais d'été : 10€</li>
+											<li>Total  <input  class="cout1" value="60" >€</input></li>
+										</div>
+									</div>	
+									<section class="nourriture">
+										<div class="titre">Nourriture</div>
+										<div>
+											<input  class="coutJour" value="34" >€ par jour</input>
+											</br>
+											<div class="total">
+											</br> Total
+											<input  class="cout2"  >€</input>
+											</div>
+										</div>
+									</section>	
+									<div class="detailVille">
+										<div class="titre">Détails</div>
+										<div class="donneesVille2">   </div>
+										<input  class="cout3" value="0" >€</input>
+									</div>						
+									<div class="recapVille">
+										<div class="titre">Cumul des trucs</div>
+										<li>Cout étape : <block class="coutEtape"></block>€</li>
+										<li>Cumul des dépenses : <block class="cumulDepense"></block>€</li>
+										<li>Temps passé depuis le départ : <block class="tempsCumul" ></block> jours</li>
+										<li>Kilomètre parcouru : <block class="distanceCumul" ></block> km</li>
+									</div>
+								</div>	
+								<section class="paysVille">
+									<div class="t11" >
+										<div  class="titrePays">Pays</div> 
+										<div class="donneesTransport">Chine</div> 
+									</div>
+								</section>	
+							</section>
+
+
+
+
+
+
+							<section class="transport">						
+								<section class=numeroTransport class="etape"> 
+									Transport n°  <block class="nbTransport"></block>
+								</section>		
+								<section class="detail">
+									<img src="Pekin-Xi'an.png" class="imgTransport">		
+									<section class="données" >		
+										<section class="detail1" class="etape"> 
+											<div class="titre">Trajet</div>
+											<li>Jining South <img class="iconeTrajet" src="trajet.png">Xi'an	</li>						
+											<li>Train</li>
+											<li><input class="tempsEtape heure" value="12">heures</input></li>
+											<li><input  class="cout1" value="60" >€ le billet</input></li>
+										</section>		
+										<section class="nourriture">
+											<div class="titre">Nourriture</div>
+											<div>
+												<input  class="coutJour" value="34" >€ par jour</input>
+												</br>
+												<div class="total">
+												</br> Total
+												<input  class="cout2"  >€</input>
+												</div>
+											</div>
+										</section>		
+										<section class="achatBillet">
+											<div class="titre">Ou acheter le billet ?</div>
+											<div>
+												bla bla bla
+											</div>
+										</section>		
+										<div class="sansVisa">
+											<div class="titre"></div>
+											 <input  class="cout3" value="0" type="hidden"></input></li>
+											</div>		
+										<div class="recap">
+											<div class="titre">Cumul des trucs</div>
+											<li>Cout étape : <block class="coutEtape"></block>€</li>
+											<li>Cumul des dépenses : <block class="cumulDepense"></block>€</li>
+											<li>Temps passé depuis le départ : <block class="tempsCumul" ></block> jours</li>
+											<li>Kilomètre parcouru : <block class="distanceCumul" ></block> km</li>
+										</div>
+									</section>		
+									<section class="detailTransport">
+										<div class="titre">Détails</div>
+										<div class="donneesTransport2" ></div>
+									</section>		
+								</section>		
+								<section class="pays">
+									<div class="t11" >
+										<div  class="titrePays">Pays</div> 
+										<div class="donneesTransport">Chine</div> 
+									</div>
+								</section>		
+							</section>
+	
+
+
+
+
+
+							<section class="ville" class="etape"> 				
+								<div class=sectionVille> 
+									<div class="titreVille">
+										Ville n° <div class="nbEtape"></div>
+									</div>
+									<div>Xi'an</div>
+								</div>	
+									<div class="info">
+										<div class="tempsVille">
+											<div class="titre">Temps sur place</div>
+											<input class="tempsEtape jour" value="3">jours </input>
+										</div>	
+										<div class="activiteVille">
+											<div class="titre">Activitées</div>
+											<div class="donneesVille2">
+												<li>Armée en terre cuite : 20€</li>
+												<li>Visite des remparts </li>
+												<li></li>
+												<li>Total  <input  class="cout1" value="20" >€</input></li>
+											</div>
+										</div>	
+										<section class="nourriture">
+											<div class="titre">Nourriture</div>
+											<div>
+												<input  class="coutJour" value="34" >€ par jour</input>
+												</br>
+												<div class="total">
+												</br> Total
+												<input  class="cout2"  >€</input>
+												</div>
+											</div>
+										</section>	
+										<div class="detailVille">
+											<div class="titre">Détails</div>
+											<div class="donneesVille2">   </div>
+											<input  class="cout3" value="0" >€</input>
+										</div>						
+										<div class="recapVille">
+											<div class="titre">Cumul des trucs</div>
+											<li>Cout étape : <block class="coutEtape"></block>€</li>
+											<li>Cumul des dépenses : <block class="cumulDepense"></block>€</li>
+											<li>Temps passé depuis le départ : <block class="tempsCumul" ></block> jours</li>
+											<li>Kilomètre parcouru : <block class="distanceCumul" ></block> km</li>
+										</div>
+									</div>	
+									<section class="paysVille">
+										<div class="t11" >
+											<div  class="titrePays">Pays</div> 
+											<div class="donneesTransport">Chine</div> 
+										</div>
+									</section>	
+								</section>
+
+
+
+
+	</body>
+
+</html>	
