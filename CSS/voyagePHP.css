@@ -1,0 +1,54 @@
+﻿:root
+{
+    --couleurTransport: rgba(29, 85, 31, 0.7);
+    --couleurVille: rgba(114, 90, 23, 0.8);
+    --couleurDepense : rgba(59, 88, 12, 1);
+    --couleurBordure : grey ; 
+    --largeurSection : 130px;
+    --largeurCase : 130px;
+    --largeurCasePetite : 90px;
+    --largeurCaseLongue : 230px;
+}
+
+
+
+
+body{
+    width : 100%;
+}
+
+header{
+    
+    position: fixed;
+    top : 0;
+    padding-top: 10px;
+    height: 60px;;
+    width: 100%;
+    background-color: #ffff;
+    border-bottom : solid thin  rgba(29, 85, 31, 0.7);
+}
+
+.enTete
+{
+    height : 80px;
+    Width : 100%;
+}
+
+.ajoutEtape
+{
+    height : 50px;
+    width : 100px;
+    border-radius: 10px;
+    border : solid thin;
+    border-bottom-color: #42a142;
+    border-color: #4cb64c;
+    background: #5ebd5e;
+    background-image: linear-gradient(to bottom,#62be62 0,#4cb64c 100%);
+    background-repeat: repeat-x;
+    color: #ffff;
+}
+
+.ajoutEtape:hover
+{
+    background-image: linear-gradient(to bottom,#529b52 0,#398539 100%);
+}
